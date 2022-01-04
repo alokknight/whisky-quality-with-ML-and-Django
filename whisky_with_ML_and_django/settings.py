@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['localhost','127.0.0.1','whiskywithml.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',##
     'whiskyApp',
     'django.contrib.admin',
     'django.contrib.auth',
