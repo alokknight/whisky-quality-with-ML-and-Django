@@ -25,7 +25,7 @@ SECRET_KEY = 'a1^kqkv%fhg!muj1#%8&8k-e*palnj-e-26bu!7&3l4wvt+p$-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','whiskywithml.herokuapp.com']
 
 
 # Application definition
