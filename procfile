@@ -1,0 +1,1 @@
+web: gunicorn whisky_with_ml_and_django.wsgi --log-file -

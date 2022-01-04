@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My WHISKY Company</title>
+    <link rel="stylesheet" href='{% static "index.css"%}' type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src='{% static "Images/logo.jpg"%}' alt="Logo">
+        </div>
+        <ul>
+            <li class="item"><a href="">Home</a></li>
+            <li class="item"><a href="#form">Form</a></li>
+            <li class="item"><a href="#wines-container">Best WHISKY</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+
+        </ul>
+    </nav>
+
+
+    <section id="home">
+        <h1 class="h-primary" >Here Your Results</h1>
+        <p style="font-size: 30px;">Your WHISKY Score is: {{answer}}</p>
+        <p style="font-size: 35px;">{{wine_quality}}</p>
+        <h2 id="h2">
+            Thanks for choosing us!
+        </h2>
+    </section>
+
+    <section id="wines-container">
+        <h1 style="background-color: white;" class="h-primary center">World's Best Wines</h1>
+        <div id="wines">
+            <div class="box">
+                <img src='{% static "Images/Eradour-Distillery.jpg"%}' alt="">
+                <h2 class="h-secondary center">Edradour Distillery</h2>
+                <p class="center">As one of Scotland’s smallest Scotch whisky distilleries, Edradour offers visitors a very different experience to some of the larger producers. First established in 1825, the distillery is described as the “last stronghold of traditional handmade single malt from a farm distillery”. Edradour does not use any computer technology in its whisky creation process, offering a unique insight into the traditional Scotch distillation process.</p>
+
+                </div>
+            <div class="box">
+                <img src='{% static "Images/Strathisla-Distillery.gif"%}' alt="">
+                <h2 class="h-secondary center">Strathisla Distillery</h2>
+                <p class="center">Owned by Chivas Brothers, Strathisla claims to be the oldest continuously operating distillery in the Scottish Highlands, having first been established in 1786 on the banks of the River Isla. The Highland distillery was bought by the French drinks giant at auction in 1950 and has since produced liquid principally for the Chivas Regal and Royal Salute blends. With its beautiful cobbled courtyard and double pagodas, the distillery is also considered one of the most picturesque in Scotland. The guided tour of Strathisla Distillery takes visitors through the bonded warehouses and includes a tutored tasting session.</p>
+            </div>
+            <div class="box">
+                <img src='{% static "Images/Glenmorangie-Distillery.jpg"%}' alt="">
+                <h2 class="h-secondary center">Glenmorangie Distillery</h2>
+                <p class="center">Located by the idyllic coast of Dornoch Firth, the legendary Men of Tain have been producing single malts at the Glenmorangie Distillery since 1843. With access to both the distilleries and warehouses, expert tour guides give guests the opportunity to experience all stages of the whisky making process from mashing and fermenting to distilling and maturing, topped off with a dram or two of the finished product. A range of tours are offered to visitors from The Original – which leads guests around the distillery depicting the story of the flagship expression, Glenmorangie Original – to The Heritage Tour. </p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src='{% static "Images/e and j.jpg"%}' alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src='{% static "Images/castle.png"%}' alt="Our Client">
+            </div>
+
+            <div class="client-item">
+                <img src='{% static "Images/pernod.png"%}' alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src='{% static "Images/treasurywines.png"%}' alt="Our Client">
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="center">
+
+        Copyright &copy;<a href="https://www.coderpapa.org">coderpapa</a>. ONLY FOR EDUCATION PURPOSE!
+        </div>
+    </footer>
+</body>
+
+</html>
