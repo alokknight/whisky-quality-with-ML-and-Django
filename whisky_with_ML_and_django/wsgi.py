@@ -1,5 +1,5 @@
 """
-WSGI config for whisky_with_ML_and_django project.
+WSGI config for whiskywithml project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

@@ -1,5 +1,5 @@
 """
-ASGI config for whisky_with_ML_and_django project.
+ASGI config for whiskywithml project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'whisky_with_ML_and_django.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'whiskywithml.settings')
 
 application = get_asgi_application()
