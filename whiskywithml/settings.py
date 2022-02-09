@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = 'a1^kqkv%fhg!muj1#%8&8k-e*palnj-e-26bu!7&3l4wvt+p$-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -122,6 +122,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-# STATIC_ROOT=  os.path.join(BASE_DIR, 'WineApp/static')
 STATIC_ROOT=  os.path.join(BASE_DIR, 'whiskyApp/static')
 django_heroku.settings(locals())
